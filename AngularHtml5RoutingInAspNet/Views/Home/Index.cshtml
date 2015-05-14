@@ -1,0 +1,34 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <base href="/">
+    <meta name="viewport" content="width=device-width" />
+    <title>Html 5 routing</title>
+    <script src="\Scripts\angular.js"></script>
+    <script src="\Scripts\angular-ui-router.js"></script>
+    <script src="\Scripts\app.js"></script>
+</head>
+<body data-ng-app="testApp">
+    <div ui-view>
+        Loading...
+    </div>
+
+    <script type="text/ng-template" id="page1">
+        page 1
+    </script>
+
+    <script type="text/ng-template" id="page2">
+        page 2
+    </script>
+
+    <script type="text/ng-template" id="subPage">
+        sub page
+    </script>
+</body>
+</html>
+
